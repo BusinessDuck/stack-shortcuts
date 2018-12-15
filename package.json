@@ -1,0 +1,45 @@
+{
+  "name": "stack-shortcuts",
+  "version": "0.1.0",
+  "description": "Easy shortcuts api for working with modern web apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build | npx mocha -r babel-core/register test/*.spec.js",
+    "build": "build:base | build:min",
+    "build:base": "./node_modules/.bin/babel -d lib/ src/",
+    "build:min": "uglifyjs ./lib/shortcuts.js -o ./lib/shortcuts.min.js -c -m",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BusinessDuck/stack-shortcuts.git"
+  },
+  "keywords": [
+    "npm",
+    "module",
+    "es6",
+    "boilerplate"
+  ],
+  "author": "Dmitriy Yurov <yurov.de@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BusinessDuck/stack-shortcuts/issues"
+  },
+  "homepage": "https://github.com/BusinessDuck/stack-shortcuts",
+  "dependencies": {
+    "save-dev": "^2.0.0",
+    "uglify-js": "^3.4.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-minify": "^0.5.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "flow-bin": "^0.85.0",
+    "jsdom": "^13.0.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^5.2.0"
+  }
+}
