@@ -10,7 +10,7 @@ Imagine, you have an application with small `picture`, you can move it along `x 
 And now for example you need to use `arrowUp` and `arrowDown` buttons for navigate to related images (prev, next)
 #### Lets see the task problems:
 **Problem 1:**
-To handle keypress eventa you should use inconvenient and not clear contract
+To handle keypress event you should use inconvenient and not clear contract
 ```js
 element.addEventListener('keydown', handler);
 
