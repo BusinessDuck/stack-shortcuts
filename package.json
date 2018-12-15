@@ -1,6 +1,6 @@
 {
   "name": "stack-shortcuts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Easy shortcuts api for working with modern web apps",
   "main": "index.js",
   "scripts": {
@@ -26,8 +26,7 @@
     "url": "https://github.com/BusinessDuck/stack-shortcuts/issues"
   },
   "homepage": "https://github.com/BusinessDuck/stack-shortcuts",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-plugin-add-module-exports": "^1.0.0",
