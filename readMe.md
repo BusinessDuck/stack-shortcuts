@@ -6,7 +6,7 @@
 ## The problem
 
 #### Initial data:
-Imagine, you have an application with small `picture`, you can move it along `x and y axis`. Mouse click on the `picture`, should open a `modal dialogue` with full sized picture.
+Imagine, you have an application with small `picture`, you can move it along `x and y axis` by the `keyboard arrows`. Mouse click on the `picture`, should open a `modal dialogue` with full sized picture.
 And now for example you need to use `arrowUp` and `arrowDown` buttons for navigate to related images (prev, next)
 #### Lets see the task problems:
 **Problem 1:**
