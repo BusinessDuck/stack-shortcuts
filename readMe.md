@@ -2,7 +2,7 @@
 ## Pure, no dependencies library for organize you shortcuts (hotkeys) in modern web app. Less than 3kb.
 
 [![Build Status](https://travis-ci.org/BusinessDuck/stack-shortcuts.svg?branch=master)](https://travis-ci.org/BusinessDuck/stack-shortcuts)
-
+[![npm version](https://badge.fury.io/js/stack-shortcuts.svg)](https://badge.fury.io/js/stack-shortcuts)
 ## The problem
 
 #### Initial data:
