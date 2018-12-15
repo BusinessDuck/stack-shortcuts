@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm run build | npx mocha -r babel-core/register test/*.spec.js",
-    "build": "build:base | build:min",
+    "build": "npm run build:base | npm run build:min",
     "build:base": "./node_modules/.bin/babel -d lib/ src/",
     "build:min": "uglifyjs ./lib/shortcuts.js -o ./lib/shortcuts.min.js -c -m",
     "prepublishOnly": "npm run build"
