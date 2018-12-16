@@ -6,8 +6,8 @@
   "scripts": {
     "test": "npm run build | npx mocha -r babel-core/register test/*.spec.js",
     "build": "npm run build:base | npm run build:min",
-    "build:base": "./node_modules/.bin/babel -d lib/ src/",
-    "build:min": "uglifyjs ./lib/shortcuts.js -o ./lib/shortcuts.min.js -c -m",
+    "build:base": "babel -d lib/ src/ --source-maps",
+    "build:min": "uglifyjs ./lib/shortcuts.js -o ./lib/shortcuts.min.js -c -m --mangle-props --source-map",
     "prepublishOnly": "npm run build"
   },
   "repository": {
