@@ -16,9 +16,15 @@
   },
   "keywords": [
     "npm",
-    "module",
-    "es6",
-    "boilerplate"
+    "shortcuts",
+    "hotkeys",
+    "boilerplate",
+    "javascript",
+    "keypress",
+    "keydown",
+    "keyup",
+    "keyboard",
+    "key bindings"
   ],
   "author": "Dmitriy Yurov <yurov.de@gmail.com>",
   "license": "MIT",
