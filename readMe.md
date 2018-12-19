@@ -4,6 +4,9 @@
 [![Build Status](https://travis-ci.org/BusinessDuck/stack-shortcuts.svg?branch=master)](https://travis-ci.org/BusinessDuck/stack-shortcuts)
 [![npm version](https://badge.fury.io/js/stack-shortcuts.svg)](https://badge.fury.io/js/stack-shortcuts)
 ![gzip bundle size](http://img.badgesize.io/https://raw.githubusercontent.com/BusinessDuck/stack-shortcuts/master/lib/shortcuts.min.js)
+
+## Sandbox
+[![Edit React stack-shortcuts example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/zrxl392pq3)
 ## The problem
 
 #### Initial data:
