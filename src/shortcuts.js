@@ -211,3 +211,5 @@ export function shortcuts(config) {
         manager: shortcutsManager
     };
 }
+
+export { KeyCode };
