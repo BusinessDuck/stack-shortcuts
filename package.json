@@ -1,6 +1,6 @@
 {
   "name": "stack-shortcuts",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Easy shortcuts api for working with modern web apps",
   "main": "index.js",
   "scripts": {
