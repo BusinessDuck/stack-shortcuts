@@ -1,5 +1,5 @@
 # Stack shortcuts
-## Pure, no dependencies library for organize you shortcuts (hotkeys) in modern web app. Less than 1.5kb.
+### Pure, no dependencies library for organize you shortcuts (hotkeys) in modern web app. Less than 1.5kb.
 
 [![Build Status](https://travis-ci.org/BusinessDuck/stack-shortcuts.svg?branch=master)](https://travis-ci.org/BusinessDuck/stack-shortcuts)
 [![Coverage Status](https://coveralls.io/repos/github/BusinessDuck/stack-shortcuts/badge.svg?branch=master)](https://coveralls.io/github/BusinessDuck/stack-shortcuts?branch=master)
