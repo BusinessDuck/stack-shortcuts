@@ -2,7 +2,7 @@
 import { initDOM, destroyDOM } from './utils/dom';
 import { KeyCode } from '../src/utils/KeyCode';
 import assert from 'assert';
-import { shortcuts, getHash } from '../src/shortcuts';
+import { shortcuts, getHash } from '../lib/shortcuts.cjs';
 
 describe('shortcuts', () => {
 

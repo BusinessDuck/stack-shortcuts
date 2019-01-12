@@ -1,5 +1,3 @@
-import { shortcuts } from 'stack-shortcuts';
-
 document.onload = function () {
     window.hotkeys = shortcuts({
         ESC: handleEsc,
