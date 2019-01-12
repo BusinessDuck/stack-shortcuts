@@ -7,6 +7,19 @@
 ![gzip bundle size](http://img.badgesize.io/https://raw.githubusercontent.com/BusinessDuck/stack-shortcuts/master/lib/shortcuts.umd.js.gz)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
+## Quick start
+
+### npm
+```bash
+npm i stack-shortcuts --save
+```
+
+### browser
+```html
+<script src="https://raw.githubusercontent.com/BusinessDuck/stack-shortcuts/master/lib/shortcuts.umd.js"></script>
+```
+
+
 ## Sandbox
 [![Edit React stack-shortcuts example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/zrxl392pq3)
 ## The problem
